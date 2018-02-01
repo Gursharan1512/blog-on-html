@@ -1,0 +1,19 @@
+.jumbotron h1 {
+	font-family: "serif";
+}
+.nighterz {
+	font-size: 3em;
+	margin-left: 25px;
+	margin-bottom: 0px;
+}
+.jumbotron p {
+	margin-top: 33px;
+	margin-bottom: 0px;
+}
+.nav-pills .nav-link.active {
+	background-color: white;
+	color: black;
+}
+a {
+	color:white;
+}
