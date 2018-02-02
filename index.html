@@ -9,45 +9,199 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/changeable/style.css"
   </head>
-    <body>
-      <div class="m-0 px-3 py-2 jumbotron jumbotron-fluid bg-dark clearfix">
-        <h1 class="border px-2 float-left bg-dark text-white rounded">N</h1>
-        <h1 class="text-white float-left nighterz">Nighterz Academy</h1>
-        <p class="float-right text-white">HTML 5 Lessons for beginners</p>
+  <body>
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active header-pic">
+            <img class="d-block w-100" src="images/banner-hipertrofia-1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item header-pic">
+            <img class="d-block w-100" src="images/pexels-photo-1200x350-c-default.png" alt="Second slide">
+          </div>
+          <div class="carousel-item header-pic">
+            <img class="d-block w-100" src="images/banner-hipertrofia-1.jpg" alt="Third slide">
+          </div>
+          <div class="carousel-item header-pic">
+            <img class="d-block w-100" src="images/pexels-photo-1200x350-c-default.png" alt="Second slide">
+          </div>
+          <<!-- div class="carousel-caption d-none d-md-block">
+              <h1 class="border px-2 bg-dark float-left text-white rounded">E</h1>
+              <h1 class="text-white float-left nighterz">Epic Adventurists</h1>
+          </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <!--_____________________________________________header_nav class_____________________________________-->
-      <ul class="nav nav-pills mb-3 sticky-top bg-primary text-white nav-justified header_nav" id="pills-tab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><span><img src="images/png/home-2x.png"></span>Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" id="pills-html-tab" data-toggle="pill" href="#pills-html" role="tab" aria-controls="pills-html" aria-selected="false">HTML</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="pills-css-tab" data-toggle="pill" href="#pills-css" role="tab" aria-controls="pills-css" aria-selected="false">CSS</a>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">Home</div>
-        <div class="tab-pane fade show active" id="pills-html" role="tabpanel" aria-labelledby="pills-html-tab">
-          <div class="mx-4 container-fluid">
-            <div class="row">
-              <div class="px-0 col-3 rounded content_nav">
-                <nav class="nav flex-column">
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                  <a class="nav-link text-dark" href="#">Introduction</a>
-                </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-11">
+            <a>Need Help?</a>
+            Customer Support 1-866-236-8417
+          </div>
+          <div class="col-1">
+            <div class="dropdown">
+              <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                India
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Australia</a>
+                <a class="dropdown-item" href="#">Canada</a>
+                <a class="dropdown-item" href="#">United States</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pills-css" role="tabpanel" aria-labelledby="pills-css-tab">CSS</div>
       </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <img src="images/men's_health_logo.png">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ONLINE COACHING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">ABOUT</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
+      </div>
+    </nav>
+
+
+    <div class="container"><!--____________________________start container_______________________________-->
+      <div class="row"><!--________________________________start row_____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/kneel-22-373x170.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">The myth of 1 g/lb: Optimal protein intake for bodybuilders</h5>
+              <p class="card-text">Protein. It’s every bodybuilder’s favorite macronutrient and for good reason. Protein is extremely essential, super satiating…</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/trap-bar-carry-1109.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">6 BEST LOADED CARRY MOVES FOR TOTAL-BODY FITNESS</h5>
+              <p class="card-text">Try these carry variations to load your frame with muscle.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/neck-press.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">HOW LONG SHOULD A LIFTING WORKOUT LAST?</h5>
+              <p class="card-text">Learn to find the sweat spot for your workout length.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column____________________________________-->
+      </div><!--___________________________________________end row_______________________________________-->
+      <div class="row"><!--________________________________start row_____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/lean-muscular-triceps-back.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">11 REASONS WHY YOU CAN'T LOSE YOUR BACK FAT</h5>
+              <p class="card-text">Pinpoint those hard-to-reach areas for a shredded back.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/treadmill-run-1109.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">5 WAYS TO RUN LIKE AN ATHLETE</h5>
+              <p class="card-text">If you’re gonna hit the treadmill this year, why not make sure that you’re doing it efficiently?</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column____________________________________-->
+        <div class="col-4"><!--____________________________start column__________________________________-->
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/dumbbell-incline-bench-press-1109.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">4 TWEAKS TO GAIN MORE MUSCLE</h5>
+              <p class="card-text">Destroy plateaus by making these small tweaks to your favorite lifts.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div><!--_________________________________________end column_________________________________-->
+      </div><!--___________________________________________end row____________________________________-->
+    </div><!--_____________________________________________end container______________________________-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4 training">Training</h1>
+        </div>
+        <div class="col-3">
+          <strong class="text-danger">Strength Training</strong>
+          <p class="border-bottom">The 30 most underrated exercises for men</p>
+          <strong class="text-danger">Strength Training</strong>
+          <p class="border-bottom">The 30 most underrated exercises for men</p>
+          <strong class="text-danger">Strength Training</strong>
+          <p class="border-bottom">The 30 most underrated exercises for men</p>
+        </div>
+        <div class="col-8 training-img img-top">
+          <img src="images/lat-foam-roller.jpg"/>
+        </div>
+      </div>
+    </div>
+    https://www.mensfitness.com/training/pro-tips/how-to-mobility-flexibility-strength-mens-fitness
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
