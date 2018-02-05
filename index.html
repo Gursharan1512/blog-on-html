@@ -4,67 +4,99 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>HTML5 Tutorial</title>
+    <title>Men's Health</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" href="css/changeable/style.css"
   </head>
-  <body>
-
-
-    <div class="container-fluid bg-dark logo">
-          <img src="images/men's_health_logo.png">
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+  <body class="bg-light">
+    <!--_____________________________________________start header___________________________________________________________-->
+    <header>
+      <!--_____________________________________________start first line logo__________________________________________________-->
+      <div class="container-fluid bg-dark logo">
+        <!--_____________________________________________start header row_____________________________________________________-->
+        <div class="row">
+          <!--_________________________________________start header logo______________________________________________________--> 
+          <div class="col-12">
+            <img src="images/men's_health_logo.png">
+          </div>
+          <!--_________________________________________end header logo________________________________________________________-->
+          <!--_________________________________________start header dropdown for selecting country____________________________-->
+          <!-- <div class="col-2">
+            <div class="btn-group float-right">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Right-aligned menu
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+              </div>
+            </div>
+          </div> -->
+          <!--_________________________________________end header dropdown for selecting country________________________________-->
+        </div>
+        <!--_____________________________________________end header row_________________________________________________________-->
+      </div>
+      <!--_____________________________________________end first line logo______________________________________________________-->
+    </header>
+    <!--_______________________________________________end header_______________________________________________________________-->
+    <!--_______________________________________________start navbar_____________________________________________________________-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link text-white" href="#">HOME<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">ONLINE COACHING</a>
+            <a class="nav-link" href="#">ONLINE COACHING</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">BLOG</a>
+            <a class="nav-link" href="#">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">CONTACT</a>
+            <a class="nav-link" href="#">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">ABOUT</a>
+            <a class="nav-link" href="#">ABOUT</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <div class="dropdown">
-              <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expandee">
-                India
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Australia</a>
-                <a class="dropdown-item" href="#">Canada</a>
-                <a class="dropdown-item" href="#">United States</a>
-              </div>
-            </div>
       </div>
+        <!-- <div class="btn-group">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            India
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">Australia</button>
+            <button class="dropdown-item" type="button">Canada</button>
+            <button class="dropdown-item" type="button">United States</button>
+          </div>
+        </div> -->
+        <!-- <div class="btn-group dropleft">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            India
+          </button>
+          <div class="dropdown-menu">
+            <button class="dropdown-item" type="button">Australia</button>
+            <button class="dropdown-item" type="button">Canada</button>
+            <button class="dropdown-item" type="button">United States</button>
+          </div>
+        </div> -->
     </nav>
-
-
-
-
-
-
-
-
-
-    <header>
+    <!--_______________________________________________end navbar_____________________________________________________________-->
+    <!--_______________________________________________start section__________________________________________________________-->
+    <section>
+      <!--_____________________________________________start section carousal_________________________________________________-->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -73,22 +105,18 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active header-pic">
+          <div class="carousel-item active">
             <img class="d-block w-100" src="images/banner-hipertrofia-1.jpg" alt="First slide">
           </div>
-          <div class="carousel-item header-pic">
+          <div class="carousel-item">
             <img class="d-block w-100" src="images/pexels-photo-1200x350-c-default.png" alt="Second slide">
           </div>
-          <div class="carousel-item header-pic">
-            <img class="d-block w-100" src="images/banner-hipertrofia-1.jpg" alt="Third slide">
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/reflex-contact-banner-new.jpg" alt="Third slide">
           </div>
-          <div class="carousel-item header-pic">
-            <img class="d-block w-100" src="images/pexels-photo-1200x350-c-default.png" alt="Second slide">
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/healthy-food-default.jpg" alt="Fourth slide">
           </div>
-          <<!-- div class="carousel-caption d-none d-md-block">
-              <h1 class="border px-2 bg-dark float-left text-white rounded">E</h1>
-              <h1 class="text-white float-left nighterz">Epic Adventurists</h1>
-          </div> -->
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,207 +127,215 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </header>
-
-
-
-
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-11">
-          <a>Need Help?</a>
-          Customer Support 1-866-236-8417
+      <!--_____________________________________________end section carousal___________________________________________________-->
+      <!--_____________________________________________start section card_____________________________________________________-->
+      <div class="card-group my-4 mx-4">
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/protein-recipes.jpg" alt="Card image cap">
+          <div class="card-body d-flex justify-content-center border-bottom">
+            <a href="#">PROTIEN RECIPES</a>
+          </div>
+        </div>
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/home-two-temp.jpg" alt="Card image cap">
+          <div class="card-body d-flex justify-content-center border-bottom">
+            <a href="#">VIDEOS</a>
+          </div>
+        </div>
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/on_gear_subfeature.jpg" alt="Card image cap">
+          <div class="card-body d-flex justify-content-center border-bottom">
+            <a href="#">APPAREL & ACCESSORIES</a>
+          </div>
+        </div>
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/subfeature_athletes.jpg" alt="Card image cap">
+          <div class="card-body d-flex justify-content-center border-bottom">
+            <a href="#">ATHLETES</a>
+          </div>
         </div>
       </div>
-    </div>
-
-      <div class="container-fuid mx-5 mt-5">
-        <div class="row">
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top img-fluid" src="images/protein-recipes.jpg" alt="Card image cap">
-              <div class="card-body d-flex justify-content-center">
-                <a href="#">PROTIEN RECIPES</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images/home-two-temp.jpg" alt="Card image cap">
-              <div class="card-body d-flex justify-content-center">
-                <a href="#">VIDEOS</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images/on_gear_subfeature.jpg" alt="Card image cap">
-              <div class="card-body d-flex justify-content-center">
-                <a href="#">APPAREL & ACCESSORIES</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-3">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="images/subfeature_athletes.jpg" alt="Card image cap">
-              <div class="card-body d-flex justify-content-center">
-                <a href="#">ATHLETES</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-
-
-
-
-      <div class="container mt-5">
+      <!--_____________________________________________end section card_______________________________________________________-->
+      <!--_____________________________________________start section container________________________________________________-->
+      <div class="container-fluid mt-5">
         <div class="row">
           <div class="col-12 mb-5 d-flex justify-content-center border-bottom">
             <h1>Supplements</h1>
           </div>
-          <div class="col-4">
-            <img src="images/th_gm_banner-8-1_d400.png" class="img-fluid" alt="">
+          <div class="col-md-4 col-sm-6 col-12 mb-4">
             <div class="d-flex justify-content-center">
-              <a class="mb-4 mt-5 btn btn-danger" href="#" role="button">Fish Oil</a>
+              <img src="images/th_gm_banner-8-1_d400.png" class="img-fluid" alt="">
             </div>
-            <p class="border py-4 px-5">Fish oil is a common term used to refer to two kinds of omega-3 fatty acids: EicosaPentaenoic Acid (EPA) and DocosaHexaenoic Acid (DHA). These omega-3 fats are usually found in fish, animal products and phytoplankton. Fish oil is recommended as a source of these omega-3 fats as they are the cheapest and most common source of them.</p>
+            <div class="d-flex justify-content-center">
+              <a class="mb-4 mt-4 btn btn-danger" href="#" role="button">Fish Oil</a>
+            </div>
+            <p class="border py-4 px-4 bg-white col-len">Fish oil is a common term used to refer to two kinds of omega-3 fatty acids: EicosaPentaenoic Acid (EPA) and DocosaHexaenoic Acid (DHA). These omega-3 fats are usually found in fish, animal products and phytoplankton. Fish oil is recommended as a source of these omega-3 fats as they are the cheapest and most common source of them.</p>
           </div>
-          <div class="col-4">
-            <img src="images/th_gm_banner-10-1_d400.png" class="img-fluid" alt="">
+          <div class="col-md-4 col-sm-6 col-12 mb-4">
             <div class="d-flex justify-content-center">
-              <a class="mb-4 mt-5 btn btn-success" href="#" role="button">Multi-Vitamins</a>
+              <img src="images/th_gm_banner-10-1_d400.png" class="img-fluid" alt="">
             </div>
-            <p class="border py-4 px-5">The human body requires various vitamins and minerals on a daily basis to keep you alive, healthy and functioning at your best. Each of those vitamins /minerals have their own benefits and play their own roles in your body. Since a multivitamin provides them, its benefits are that of pretty much every vitamin and mineral it contains.</p>
+            <div class="d-flex justify-content-center">
+              <a class="mb-4 mt-4 btn btn-success" href="#" role="button">Multi-Vitamins</a>
+            </div>
+            <p class="border py-4 px-4 bg-white col-len">The human body requires various vitamins and minerals on a daily basis to keep you alive, healthy and functioning at your best. Each of those vitamins /minerals have their own benefits and play their own roles in your body. Since a multivitamin provides them, its benefits are that of pretty much every vitamin and mineral it contains.</p>
           </div>
-          <div class="col-4">
-            <img src="images/th_gm_banner-9_d400.png" class="img-fluid" alt="">
+          <div class="col-md-4 col-sm-6 col-12 mb-4">
             <div class="d-flex justify-content-center">
-              <a class="mb-4 mt-5 btn btn-primary" href="#" role="button">CLA</a>
+              <img src="images/th_gm_banner-9_d400.png" class="img-fluid" alt="">
             </div>
-            <p class="border py-4 px-5">CLA (Conjugated Linoleic Acid) is related to the omega-6 fatty acids, one of the two types of essential fatty acids that help the body increase metabolic rates, boost the immune system and keep cholesterol levels in check. CLA is found in dairy and animal fats, such as beef, lamb, whole milk, and eggs, but cannot be produced by the human body.</p>
+            <div class="d-flex justify-content-center">
+              <a class="mb-4 mt-4 btn btn-primary" href="#" role="button">CLA</a>
+            </div>
+            <p class="border py-4 px-4 bg-white col-len">CLA (Conjugated Linoleic Acid) is related to the omega-6 fatty acids, one of the two types of essential fatty acids that help the body increase metabolic rates, boost the immune system and keep cholesterol levels in check. CLA is found in dairy and animal fats, such as beef, lamb, whole milk, and eggs, but cannot be produced by the human body.</p>
           </div>
         </div>
       </div>  
-
-
-      <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="display-4 training">Training</h1>
-        </div>
-        <div class="col-3">
-          <strong class="text-danger">Strength Training</strong>
-          <p class="border-bottom">The 30 most underrated exercises for men</p>
-          <strong class="text-danger">Strength Training</strong>
-          <p class="border-bottom">The 30 most underrated exercises for men</p>
-          <strong class="text-danger">Strength Training</strong>
-          <p class="border-bottom">The 30 most underrated exercises for men</p>
-        </div>
-        <div class="col-8 training-img img-top">
-          <img src="images/lat-foam-roller.jpg"/>
-        </div>
+      <!--_____________________________________________end section container__________________________________________________-->
+    </section>
+    <!--_________________________________________________end section____________________________________________________________-->
+    <!--_________________________________________________start article__________________________________________________________-->
+    <article>
+      <div class="container bg-white mb-5">
+        <h1 class="display-4 training">BEGINNER'S WORKOUT</h1>
+        <ul>
+          <li><strong>Week 1:</strong> Full-body split</li>
+          <li><strong>Week 2:</strong> Two-day split: Upper body/Lower body</li>
+          <li><strong>Week 3:</strong> Three-day split: Push/Pull/Legs</li>
+          <li><strong>Week 4:</strong> Four-day split: Full body</li>
+        </ul>
+        <h5 class="text-danger"><strong>WEEK 1: WHOLE IN ONE</strong></h5>
+          <p>You’ll begin the program with a full-body training split, meaning you’ll train all major bodyparts in each workout (as opposed to “splitting up” your training). Train three days this first week, performing just one exercise per bodypart in each session. It’s important that you have a day of rest between each workout to allow your body to recover; this makes training Monday, Wednesday and Friday—with Saturday and Sunday being rest days—a good approach.</p>
+          <p>The exercises listed in Week 1 are a collection of basic moves that, while also used by advanced lifters, we feel are suitable for the beginner as well. Notice we’re not starting you off with only machine exercises; a handful of free-weight movements are present right off the bat. Reason being, these are the exercises you need to master for long-term gains in muscular size and strength, so you may as well start learning them now. Carefully read all exercise descriptions before attempting them yourself.</p>
+          <p>In Week 1 you’ll perform three sets of every exercise per workout, which over the course of the week adds up to nine sets total for each bodypart, a good starting volume for your purposes. With the exception of crunches for abs, you’ll do 8–12 reps per set. This rep scheme is widely considered ideal for achieving gains in muscle size (the scientific term is hypertrophy) and is commonly employed by amateur and pro bodybuilders alike.</p>
+          <p>Notice in the workouts below that your first set calls for eight reps, your second set 10 reps and your third set 12. This is referred to in bodybuilding circles as a “reverse pyramid” (a standard pyramid goes from higher to lower reps), where you decrease the weight each set to complete the higher rep count. For example, if on your first set of lat pulldowns you used 140 pounds for eight reps, try using 120 or 130 pounds on set two and 100–120 pounds on set three.</p>
+        <h5 class="text-danger"><strong>WEEK 2: SPLIT DECISION</strong></h5>
+          <p>You’re only a week into the program, yet you’ll begin to train different bodyparts on different days with a two-day training split (meaning the entire body is trained over the course of two days, rather than one as in the first week). You’ll train a total of four days this week; the split includes two upper-body days (Monday and Thursday) and two lower-body days (Tuesday and Friday), and each bodypart is trained twice. Wednesday, Saturday and Sunday will be your recovery days.</p>
+          <p>Several exercises from Week 1 are carried over to Week 2, but one move is added to each bodypart routine—with the exception of abs—so you can train all muscle groups more completely from multiple angles. Chest, for example, includes two exercises: One is a compound movement (dumbbell bench press) that involves multiple joints (both the shoulder and elbow) to work the largest amount of muscle possible, and the other is an isolation exercise (dumbbell flye) that involves only one joint (shoulder) and targets the pecs to a greater extent. (When doing presses for chest, the deltoids and triceps are involved to a degree, meaning presses don’t isolate the pecs as much as flyes do.)</p>
+          <p>You’ll again employ a reverse pyramid scheme of reps, though in Week 2 you’ll go slightly higher in reps (15) on your third set of each exercise. Fifteen reps may be just outside the ideal muscle-building range, but these sets will help you increase muscular endurance to provide a solid foundation on which to build size and strength going forward.</p>
+        <h5 class="text-danger"><strong>WEEK 3: THREE ON THREE</strong></h5>
+          <p>In the third week of the program we step it up to a three-day training split: Train all “pushing” bodyparts (chest, shoulders, triceps) on Day 1; hit the “pulling” bodyparts (back, biceps) and abs on Day 2; and work your lower body (quads, glutes, hamstrings, calves) on Day 3. As in Week 2, you train each bodypart twice a week, so you’ll hit the gym six days this week.</p>
+          <p>One new exercise is added to each bodypart routine to provide even more angles from which to train your target muscles to promote complete development. You’ll hit each muscle group with two exercises of 3­–4 sets each: four sets for large bodyparts (chest, back, shoulders, quads, hamstrings) and three sets for smaller bodyparts (biceps, triceps, abs, calves). The result is 16 total sets for the week for large bodyparts and 12 sets total for smaller ones—again, working in the 8–15-rep range—which is a substantial increase in volume from Week 1.</p>
+        <h5 class="text-danger"><strong>WEEK 4: TURNING UP THE VOLUME</strong></h5>
+          <p>In the fourth and final week of the program, you’ll train four days in a four-way split that hits each bodypart just once (except for calves and abs, which are each trained twice). Four-day splits are common among experienced lifters because they involve training fewer bodyparts (typically 2–3) per workout, which gives each muscle group ample attention and allows you to train with higher volume. As you’ll see, chest and triceps are paired up, as are back with biceps and quads with hamstrings, each a very common pairing among novice and advanced bodybuilders. Shoulders are trained more or less on their own, and you’ll alternate hitting calves and abs—which respond well to being trained multiple times per week—every other workout. No new exercises are introduced in Week 4 so that you can focus on intensity in your workouts instead of learning new movements.</p>
+          <p>Rep schemes remain in the hypertrophy range this week, but overall volume increases by adding more sets to individual exercises: up to five sets per move for larger bodyparts, and even 10 sets of calf raises on Thursday. This bump in volume will ensure that your muscles are overloaded sufficiently to continue the growth they’ve already begun experiencing in the first three weeks. Completion of this four-week program now entitles you to go to the next stage.</p>
       </div>
-    </div>
-
-
-
-
-    
-
-
-    <div class="container"><!--____________________________start container_______________________________-->
-      <div class="row"><!--________________________________start row_____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/kneel-22-373x170.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">The myth of 1 g/lb: Optimal protein intake for bodybuilders</h5>
-              <p class="card-text">Protein. It’s every bodybuilder’s favorite macronutrient and for good reason. Protein is extremely essential, super satiating…</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+    </article>
+    <!--_________________________________________________end article____________________________________________________________-->
+    <!--___________________________________________________start section__________________________________________________________-->
+    <section>
+      <!--_________________________________________________start section deck card________________________________________________-->
+      <div class="card-deck my-4 mx-4">
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/kneel-22-373x170.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">The myth of 1 g/lb: Optimal protein intake for bodybuilders</h5>
+            <p class="card-text">Protein. It’s every bodybuilder’s favorite macronutrient and for good reason. Protein is extremely essential, super satiating…</p>
           </div>
-        </div><!--_________________________________________end column____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/trap-bar-carry-1109.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">6 BEST LOADED CARRY MOVES FOR TOTAL-BODY FITNESS</h5>
-              <p class="card-text">Try these carry variations to load your frame with muscle.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary">Read More</a></small>
           </div>
-        </div><!--_________________________________________end column____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/neck-press.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">HOW LONG SHOULD A LIFTING WORKOUT LAST?</h5>
-              <p class="card-text">Learn to find the sweat spot for your workout length.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/trap-bar-carry-1109.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">6 BEST LOADED CARRY MOVES FOR TOTAL-BODY FITNESS</h5>
+            <p class="card-text">Try these carry variations to load your frame with muscle.</p>
           </div>
-        </div><!--_________________________________________end column____________________________________-->
-      </div><!--___________________________________________end row_______________________________________-->
-      <div class="row"><!--________________________________start row_____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/lean-muscular-triceps-back.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">11 REASONS WHY YOU CAN'T LOSE YOUR BACK FAT</h5>
-              <p class="card-text">Pinpoint those hard-to-reach areas for a shredded back.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary">Read More</a></small>
           </div>
-        </div><!--_________________________________________end column____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/treadmill-run-1109.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">5 WAYS TO RUN LIKE AN ATHLETE</h5>
-              <p class="card-text">If you’re gonna hit the treadmill this year, why not make sure that you’re doing it efficiently?</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/neck-press.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">HOW LONG SHOULD A LIFTING WORKOUT LAST?</h5>
+            <p class="card-text">Learn to find the sweat spot for your workout length.</p>
           </div>
-        </div><!--_________________________________________end column____________________________________-->
-        <div class="col-4"><!--____________________________start column__________________________________-->
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/dumbbell-incline-bench-press-1109.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">4 TWEAKS TO GAIN MORE MUSCLE</h5>
-              <p class="card-text">Destroy plateaus by making these small tweaks to your favorite lifts.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
-            </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary ">Read More</a></small>
           </div>
-        </div><!--_________________________________________end column_________________________________-->
-      </div><!--___________________________________________end row____________________________________-->
-    </div><!--_____________________________________________end container______________________________-->
-
-    
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+      </div>
+      <!--_________________________________________________end section deck card__________________________________________________-->
+      <!--_________________________________________________start section deck card________________________________________________-->
+      <div class="card-deck my-4 mx-4">
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/lean-muscular-triceps-back.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">11 REASONS WHY YOU CAN'T LOSE YOUR BACK FAT</h5>
+            <p class="card-text">Pinpoint those hard-to-reach areas for a shredded back.</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary">Read More</a></small>
+          </div>
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/treadmill-run-1109.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">5 WAYS TO RUN LIKE AN ATHLETE</h5>
+            <p class="card-text">If you’re gonna hit the treadmill this year, why not make sure that you’re doing it efficiently?</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary">Read More</a></small>
+          </div>
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+        <!--_______________________________________________start section card___________________________________________________-->
+        <div class="card mx-4">
+          <img class="card-img-top" src="images/dumbbell-incline-bench-press-1109.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">4 TWEAKS TO GAIN MORE MUSCLE</h5>
+            <p class="card-text">Destroy plateaus by making these small tweaks to your favorite lifts.</p>
+          </div>
+          <div class="card-footer bg-white border-0">
+            <small class="text-muted"><a href="#" class="btn btn-primary ">Read More</a></small>
+          </div>
+        </div>
+        <!--_______________________________________________end section card_____________________________________________________-->
+      </div>
+      <!--_______________________________________________end section deck card__________________________________________________-->
+    </section>
+    <!--_________________________________________________end section____________________________________________________________-->
+    <!--_________________________________________________start footer___________________________________________________________-->
     <footer>
-      <div class="container-fluid mt-5">
-        <div class="row pt-4 pb-5 pl-4">
-          <div class="col-2">
+      <!--_______________________________________________start footer container_________________________________________________-->
+      <div class="container mt-5">
+        <!--_____________________________________________start footer row_______________________________________________________-->
+        <div class="row pt-4 pb-2 pl-4">
+          <!--___________________________________________start footer left section______________________________________________-->
+          <div class="col-md-2 col-6 mb-5 footer-left">
             <dl>
-              <dt class="border-bottom footer-top">NEED HELP?</dt>
-              <dd>Help Center</dd><hr noshade size=1 class="my-1" />
-              <dd>Email Support</dd><hr noshade size=1 class="my-1" />
-              <dd>Live Chat</dd><hr noshade size=1 class="my-1" />
-              <dd>Gift Certificates</dd><hr noshade size=1 class="my-1" />
-              <dd>Send Us Feedback</dd><hr noshade size=1 class="my-1" />
+              <dt class="border-bottom footer-top mb-1">NEED HELP?</dt>
+              <dd><a href="#">Help Center</a></dd><hr noshade size=1 class="my-1" />
+              <dd><a href="#">Email Support</a></dd><hr noshade size=1 class="my-1" />
+              <dd><a href="#">Live Chat</a></dd><hr noshade size=1 class="my-1" />
+              <dd><a href="#">Gift Certificates</a></dd><hr noshade size=1 class="my-1" />
+              <dd><a href="#">Send Us Feedback</a></dd><hr noshade size=1 class="my-1" />
             </dl>
           </div>
-          <div class="col-2 footer-top">
+          <!--___________________________________________end footer left section________________________________________________-->
+          <!--___________________________________________start footer middle section____________________________________________-->
+          <div class="col-md-2 offset-md-2 col-6 footer-logo">
             <h6 class="border-bottom footer-top">CONNECT WITH US</h6>
-            <i class="fa fa-facebook"></i> 
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-pinterest"></i> 
-            <i class="fa fa-instagram"></i>
+            <a href="#"><i class="fa fa-facebook px-1"></i></a>
+            <a href="#"><i class="fa fa-youtube px-1"></i></a>
+            <a href="#"><i class="fa fa-twitter px-1"></i></a>
+            <a href="#"><i class="fa fa-pinterest px-1"></i></a>
+            <a href="#"><i class="fa fa-instagram px-1"></i></a>
           </div>
-          <div class="col-4">
+          <!--___________________________________________end footer middle section______________________________________________-->
+          <!--___________________________________________start footer right section_____________________________________________-->
+          <div class="col-md-4 col-12 offset-md-2">
             <h6 class="border-bottom footer-top">JOIN OUR NEWSLETTER</h6>
             <p>Be the first to receive exciting news, features, and special offers from Bodybuilding.com!</p>
             <form>
@@ -309,16 +345,13 @@
               <button type="submit" class="btn btn-primary">Send</button>
             </form>
           </div>
+          <!--___________________________________________start footer right section_____________________________________________-->
         </div>
+        <!--_____________________________________________end footer row_________________________________________________________-->
       </div>
+      <!--_______________________________________________end footer container___________________________________________________-->
     </footer>
-
-
-
-
-
-
-
+    <!--_________________________________________________end footer_____________________________________________________________-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
