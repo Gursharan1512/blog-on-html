@@ -1,17 +1,14 @@
-.logo h1 {
-	font-family: "serif";
+body{
+	background: #f5f5ef;
 }
-.nighterz {
-	font-size: 3em;
-	margin-left: 25px;
-	margin-bottom: 0px;
+.logo{
+	text-align: center;
+}
+.logo img{
+	max-width: 20%;
 }
 .header-pic{
 	height: 350px;
-}
-.navbar img{
-	height: 7%;
-	width: 7%;
 }
 .training{
 	border-bottom-style: solid;
@@ -20,4 +17,11 @@
 .training-img img{
 	height: 80%;
 	width: 80%;
+}
+footer{
+	background-image: url("../../images/bottom.png");
+	color: grey;
+}
+.footer-top{
+	color: lightgrey;
 }
